@@ -1,4 +1,4 @@
-import logo from "../assets/logoOficial.png"
+import logo from "../assets/LogoOficial.png"
 import CartWidget from "./CartWidget"
 
 function NavBar () {
