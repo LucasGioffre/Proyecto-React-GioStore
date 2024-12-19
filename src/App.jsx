@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer text="Bienvenidos a la Tienda Deportiva GioStore!"/>
+      <ItemListContainer />
     </>
   )
 }

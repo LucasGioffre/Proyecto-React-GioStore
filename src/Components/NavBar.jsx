@@ -4,7 +4,7 @@ import CartWidget from "./CartWidget"
 function NavBar () {
     return (
         <nav style={{
-            backgroundColor: "#191919",
+            backgroundColor: "#000000",
             display: "flex",
             margin: "0px",
         }}>
@@ -12,7 +12,7 @@ function NavBar () {
             width: "150px",
         }}/>
         <ul style={{
-            backgroundColor: "#191919",
+            backgroundColor: "#000000",
             display: "flex",
             alignItems: "center",
             listStyleType: "none",
