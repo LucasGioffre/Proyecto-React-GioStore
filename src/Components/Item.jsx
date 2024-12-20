@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
+import "../App.css"
 
 function Item({item}) {
     return (
@@ -10,7 +11,7 @@ function Item({item}) {
                 <Card.Body className="d-flex flex-column">
                     <Card.Title>{item.title}</Card.Title>
                     <Card.Text>{item.description}</Card.Text>
-                    <Button variant="primary" className="mt-auto" style={{backgroundColor: "#ffbd59", borderColor: "#ffbd59", color:"#000000"}}>Ver Producto</Button>
+                    <Button variant="primary" className="mt-auto item-button">VER PRODUCTO</Button>
                 </Card.Body>
             </Card>
         </Col>

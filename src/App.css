@@ -33,3 +33,24 @@
 .read-the-docs {
   color: #888;
 }
+
+.nav-bar-class {
+  color: #ffbd59;
+  text-decoration: none;
+}
+
+.nav-bar-class:hover {
+  color: #ac7f3b;
+}
+
+.item-button {
+  background-color: #ffbd59;
+  border-color: #ffbd59;
+  color: #000000;
+}
+
+.item-button:hover {
+  background-color: #ac7f3b;
+  border-color: #ac7f3b;
+  color: #000000;
+}
