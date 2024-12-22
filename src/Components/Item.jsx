@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
+import { Link } from 'react-router'
 import "../App.css"
 
 function Item({item}) {
@@ -11,7 +12,7 @@ function Item({item}) {
                 <Card.Body className="d-flex flex-column">
                     <Card.Title>{item.title}</Card.Title>
                     <Card.Text>{item.description}</Card.Text>
-                    <Button variant="primary" className="mt-auto item-button">VER PRODUCTO</Button>
+                    <Button variant="primary" className="mt-auto item-button" as={Link} to={`/item/${item.id}`}>VER PRODUCTO</Button>
                 </Card.Body>
             </Card>
         </Col>
