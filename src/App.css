@@ -1,0 +1,283 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.nav-bar-class {
+  color: #50db19;
+  text-decoration: none;
+}
+
+.nav-bar-class:hover {
+  color: #3fac14;
+}
+
+.item-button {
+  background-color: #50db19;
+  border-color: #50db19;
+  border-radius: 0;
+  color: #000000;
+}
+
+.item-button:hover {
+  background-color: #3fac14;
+  border-color: #3fac14;
+  color: #000000;
+}
+
+.product-card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 70%;
+  height: 60%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.product-image {
+  flex: 1;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-info {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.product-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.product-price {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.buy-now {
+  background-color: #50db19;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.buy-now:hover {
+  background-color: #3fac14;
+}
+
+.cart-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-action {
+  background-color: #50db19;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-action:hover {
+  background-color: #3fac14;
+}
+
+.cart-count {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 0 8px;
+  min-width: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 25px;
+}
+
+.cart-list-button {
+  background-color: #50db19;
+  border-color: #50db19;
+  color: #000000;
+  border-radius: 0;
+}
+
+.cart-list-button:hover {
+  background-color: #3fac14;
+  border-color: #3fac14;
+}
+
+.cart-list-button:active {
+  background-color: #1f7a1f !important;
+  border-color: #1f7a1f !important;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-button-buy {
+  background-color: #50db19;
+  border-color: #50db19;
+  color: #000000;
+  border-radius: 0;
+}
+
+.cart-button-buy:hover {
+  background-color: #2cac2c;
+  border-color: #2cac2c;
+}
+
+.cart-button-buy:active {
+  background-color: #3fac14 !important;
+  border-color: #3fac14 !important;
+}
+
+.link-button-buy {
+  color: #000000;
+  text-decoration: none;
+}
+
+.link-button-buy:hover {
+  color: #000000;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.text-cart-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form-checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+}
+
+.form-button {
+  margin-top: 25px;
+}
+
+.toast-position {
+  position: absolute;
+  top: 170px;
+  left: 20px;
+}
+
+.link-home {
+  position: absolute;
+  top: 165px;
+  left: 20px;
+  color: #50db19;
+}
+
+.link-home:hover {
+  color: #3fac14;
+}
+
+.toast-product {
+  position: absolute;
+  top: 30px;
+  left: 40%;
+}
+
+.item-photo {
+  height: 280px;
+}
